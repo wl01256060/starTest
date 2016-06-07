@@ -1,4 +1,4 @@
-$("#gas").on("tap",function(){
+$("#gas").on("click",function(){
 	$("#gas").animate({
 		left: "+=1600",
 		top: "+=70",
@@ -14,7 +14,7 @@ $("#gas").on("tap",function(){
 	})
 });
 
-$("#right_arrow").on("switchleft", function(){
+$("#right_arrow").on("click", function(){
 	$("#kitchen").css("left","-=50")
 })
 
