@@ -1,3 +1,11 @@
+div{
+	overflow: hidden;
+	width: 2048px;
+	height: 1546px;
+	position: relative;
+	margin: 0;
+}
+
 #kitchen{
 	position: absolute;
 	left: 0;
@@ -12,13 +20,13 @@
 
 #bottle1{
 	position: absolute;
-	left: 2048px;
+	left: 2300px;
 	top: 750px;
 }
 
 #bottle2{
 	position: absolute;
-	left: 1950px;
+	left: 2200px;
 	top: 750px;
 }
 
@@ -32,6 +40,7 @@
 	position: absolute;
 	left: 50px;
 	top: 1100px;
+	display: none;
 }
 
 #right_arrow{
